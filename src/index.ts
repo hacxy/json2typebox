@@ -46,7 +46,7 @@ export const json2typescript = async (json: string, name: string = 'Data') => {
   return tsCode;
 };
 
-export const json2Typebox = async (json: string, name: string = 'Data') => {
+export const json2typebox = async (json: string, name: string = 'Data') => {
   let tsCode = '';
   try {
     tsCode = await json2typescript(json, name);
