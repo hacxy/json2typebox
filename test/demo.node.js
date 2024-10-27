@@ -1,5 +1,5 @@
-import { json2Typebox } from '../dist/index.js';
+import { json2typebox } from '../dist/index.js';
 
-json2Typebox(`[{"id":1}]`).then((res) => {
+json2typebox(`[{"id":1}]`).then((res) => {
   console.log(res);
 });

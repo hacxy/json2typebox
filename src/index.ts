@@ -40,9 +40,8 @@ export const json2typescript = async (json: string, name: string = 'Data') => {
   let tsCode = lines.join('\n');
 
   if (isArray) {
-    tsCode = `export type ${name} = ${name}[];\n` + tsCode;
+    tsCode = tsCode + `\nexport type ${name} = ${name}Element[];`;
   }
-
   return tsCode;
 };
 
