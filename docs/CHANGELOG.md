@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.0.3](https://github.com/hacxy/json2typebox/compare/v0.0.2...v0.0.3) (2024-10-27)
+
+
+### Bug Fixes | Bug 修复
+
+* 修复typebox转化array时类型名取错的问题 ([cb2d9a2](https://github.com/hacxy/json2typebox/commit/cb2d9a21a9d85c637bf711cf43237f24bf70904d))
+
 ### 0.0.2 (2024-10-26)
 
 
