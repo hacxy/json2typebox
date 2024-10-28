@@ -1,3 +1,5 @@
-import { helloWorld } from '../dist';
+import { json2typescript } from '../dist/index';
 
-console.log(helloWorld());
+json2typescript(`[{"id": 1}]`).then((res) => {
+  console.log(res);
+});
