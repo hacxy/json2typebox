@@ -1,7 +1,7 @@
 {
   "name": "json2typebox",
   "version": "0.0.3",
-  "description": "",
+  "description": "Json to typebox schemas",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -23,11 +23,24 @@
     "dist"
   ],
   "keywords": [
-    "template",
-    "javascript library"
+    "json2typescript",
+    "json2typebox",
+    "typebox"
   ],
-  "author": "",
+  "author": {
+    "name": "hacxy",
+    "email": "hacxy.js@outlook.com",
+    "url": "https://github.com/hacxy"
+  },
   "license": "MIT",
+  "homepage": "https://github.com/hacxy/json2typebox#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacxy/json2typebox.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hacxy/json2typebox/issues"
+  },
   "devDependencies": {
     "@eslint/js": "^9.0.0",
     "@release-it/conventional-changelog": "^5.1.1",
