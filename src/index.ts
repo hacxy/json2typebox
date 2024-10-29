@@ -1,15 +1,7 @@
 import { TypeScriptToTypeBox, Formatter } from '@sinclair/typebox-codegen';
 import { InputData, jsonInputForTargetLanguage, quicktype } from 'quicktype-core';
 /**
- * @name 将json转化为typescript类型
- * @group json
- * @example
- * ```ts
- * json2typescript(`[{"id":1}]`)
- * .then((res) => {
- *   console.log(res, 'res');
- * })
- * ```
+ * json to typescript
  */
 export const json2typescript = async (json: string, name: string = 'Data') => {
   let isArray = false;
@@ -45,6 +37,9 @@ export const json2typescript = async (json: string, name: string = 'Data') => {
   return tsCode;
 };
 
+/**
+ * json to typebox
+ */
 export const json2typebox = async (json: string, name: string = 'Data') => {
   let tsCode = '';
   try {
