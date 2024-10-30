@@ -8,11 +8,10 @@ export default defineConfig({
     lib: {
       formats: ['es', 'cjs'],
       entry: './src/index.ts',
-      name: 'UTILS',
       fileName: 'index'
     },
     rollupOptions: {
-      external: ['@sinclair/typebox-codegen', 'quicktype-core']
+      external: ['@sinclair/typebox-codegen', '@hacxy/json2ts']
     }
   },
 

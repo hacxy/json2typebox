@@ -23,7 +23,7 @@
     "dist"
   ],
   "keywords": [
-    "json2typescript",
+    "typescript",
     "json2typebox",
     "typebox"
   ],
@@ -63,7 +63,7 @@
     "vue": "^3.3.4"
   },
   "dependencies": {
-    "@sinclair/typebox-codegen": "^0.10.5",
-    "quicktype-core": "23.0.146"
+    "@hacxy/json2ts": "^0.0.1",
+    "@sinclair/typebox-codegen": "^0.10.5"
   }
 }
