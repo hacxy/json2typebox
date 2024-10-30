@@ -45,3 +45,10 @@ function: `json2typebox()`
 ### Returns
 
 `Promise`\<`string`\>
+
+- json2typebox-cli: [https://github.com/hacxy/json2typebox-cli](https://github.com/hacxy/json2typebox-cli)
+- json2ts: [https://github.com/hacxy/json2ts](https://github.com/hacxy/json2ts)
+
+## License
+
+MIT
