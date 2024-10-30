@@ -46,6 +46,8 @@ function: `json2typebox()`
 
 `Promise`\<`string`\>
 
+## Related projects
+
 - json2typebox-cli: [https://github.com/hacxy/json2typebox-cli](https://github.com/hacxy/json2typebox-cli)
 - json2ts: [https://github.com/hacxy/json2ts](https://github.com/hacxy/json2ts)
 
