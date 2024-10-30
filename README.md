@@ -12,40 +12,6 @@ targets browsers and Node.js .
 npm install json2typebox --save
 ```
 
-## Json to Typescript
-
-function: `json2typescript()`
-
-> **json2typescript**(`json`, `name`): `Promise`\<`string`\>
-
-### Params
-
-| name   | types    | default     | description      |
-| :----- | :------- | :---------- | :--------------- |
-| `json` | `string` | `undefined` | json data        |
-| `name` | `string` | `'Data'`    | define type name |
-
-### Returns
-
-`Promise`\<`string`\>
-
-### Example
-
-```ts
-import { json2typescript } from 'json2typebox';
-
-json2typescript(`{"id": 1, "name": "hacxy"}`, 'Root').then((code) => {
-  console.log(code);
-
-  /*
-    export interface Root {
-      id:   number;
-      name: string;
-    }
- */
-});
-```
-
 ## Json to typebox
 
 function: `json2typebox()`
@@ -57,7 +23,7 @@ function: `json2typebox()`
 | name   | types    | default     | description      |
 | :----- | :------- | :---------- | :--------------- |
 | `json` | `string` | `undefined` | json data        |
-| `name` | `string` | `'Data'`    | define type name |
+| `name` | `string` | `'Root'`    | define type name |
 
 ### Returns
 
@@ -66,7 +32,7 @@ function: `json2typebox()`
 ### Example
 
 ```ts
-import { json2typebox } from 'json2typebox';
+import json2typebox from 'json2typebox';
 
 json2typebox(`{"id": 1, "name": "hacxy"}`, 'Root').then((code) => {
   console.log(code);
