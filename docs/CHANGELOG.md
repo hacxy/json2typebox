@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.1.0](https://github.com/hacxy/json2typebox/compare/v0.0.4...v0.1.0) (2024-10-30)
+
+
+### Bug Fixes | Bug 修复
+
+* Modify default name,removed json2typescript method ([dde26f7](https://github.com/hacxy/json2typebox/commit/dde26f7f2150273ddfe6885d5a6b2acb0115993d))
+* The method is adjusted to default export. ([fea0ee8](https://github.com/hacxy/json2typebox/commit/fea0ee85e5c5fe7ab35501c5bae9492b15bbabdb))
+
+
+### Tests | 测试
+
+* test Nodejs and Browser ([cf4ca0e](https://github.com/hacxy/json2typebox/commit/cf4ca0e13dcc6a3c527fa5786c06a244e1246a4a))
+
 ### [0.0.4](https://github.com/hacxy/json2typebox/compare/v0.0.3...v0.0.4) (2024-10-29)
 
 
