@@ -2,7 +2,7 @@
 
 ## Overview
 
-Json2Typebox is a code generation tool that transforms Json Data into TypeBox type.
+Json2Typebox is a code generation tool that transforms Json Data into [TypeBox](https://github.com/sinclairzx81/typebox) type.
 
 Targets Browsers and Node.js .
 
