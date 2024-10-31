@@ -1,5 +1,7 @@
 # Json2Typebox
 
+If you need cli tools. see [json2typebox-cli](https://github.com/hacxy/json2typebox-cli).
+
 ## Overview
 
 Json2Typebox is a code generation tool that transforms Json Data into [TypeBox](https://github.com/sinclairzx81/typebox) type.
@@ -46,7 +48,7 @@ function: `json2typebox()`
 
 `Promise`\<`string`\>
 
-## Related projects
+## Related
 
 - json2typebox-cli: [https://github.com/hacxy/json2typebox-cli](https://github.com/hacxy/json2typebox-cli)
 - json2ts: [https://github.com/hacxy/json2ts](https://github.com/hacxy/json2ts)
