@@ -6,7 +6,7 @@ If you need cli tools. see [json2typebox-cli](https://github.com/hacxy/json2type
 
 Json2Typebox is a code generation tool that transforms Json Data into [TypeBox](https://github.com/sinclairzx81/typebox) type.
 
-Targets Browsers and Node.js .
+Browsers and Node.js can both be used.
 
 ## Install
 
