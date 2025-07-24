@@ -19,9 +19,9 @@ npm install json2typebox --save
 ```ts
 import json2typebox from 'json2typebox';
 
-json2typebox(`{"id": 1, "name": "hacxy"}`, 'Root').then((code) => {
-  console.log(code);
-  /*
+await json2typebox('{"id": 1, "name": "hacxy"}', 'Root');
+
+/*
     import { Type, Static } from '@sinclair/typebox'
 
     export type Data = Static<typeof Data>
@@ -30,7 +30,6 @@ json2typebox(`{"id": 1, "name": "hacxy"}`, 'Root').then((code) => {
       name: Type.String()
     })
  */
-});
 ```
 
 function: `json2typebox()`
