@@ -13,7 +13,7 @@ async function json2typebox(json: string, name: string = 'Root') {
   }
   const code = TypeScriptToTypeBox.Generate(tsCode);
   const finalCode = Formatter.Format(code);
-  return finalCode;
+  return finalCode.trim();
 }
 
 export default json2typebox;
