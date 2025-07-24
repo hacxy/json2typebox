@@ -54,4 +54,4 @@ function: `json2typebox()`
 
 ## License
 
-MIT
+[MIT](./LICENSE) License &copy; 2023-PRESENT [Hacxy](https://github.com/hacxy)
